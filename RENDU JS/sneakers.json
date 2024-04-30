@@ -10,24 +10,29 @@
       ],
       "produits": [ 
         {
-          "nom": "Sneakers Classic",
-          "description": "Adoptez le style classique avec nos sneakers éco-sourcés. Conçues avec des matériaux recyclés, elles allient confort, durabilité et élégance."
+          "nom": "AIR MAX 1",
+          "description": "Adoptez le style classique avec nos sneakers éco-sourcés. Conçues avec des matériaux recyclés, elles allient confort, durabilité et élégance.",
+          "image": "https://source.unsplash.com/Ow2qmk-3Fgs"
         },
         {
-          "nom": "Sneakers Urbaines",
-          "description": "Affirmez votre style urbain avec nos sneakers tendance. Des designs modernes fabriqués de manière éthique pour une empreinte écologique réduite."
+          "nom": "JORDAN IV 'A Ma Manière'",
+          "description": "Affirmez votre style urbain avec nos sneakers tendance.",
+          "image": "https://source.unsplash.com/RjiqD3kEGxo"
         },
         {
-          "nom": "Sneakers Légères",
-          "description": "Optez pour le confort ultime avec nos sneakers légères. Fabriquées avec des matériaux respirants, elles sont idéales pour une utilisation quotidienne."
+          "nom": "YEEZY 350",
+          "description": "Optez pour le confort ultime avec nos sneakers légères. Fabriquées avec des matériaux respirants, elles sont idéales pour une utilisation quotidienne.",
+          "image": "https://source.unsplash.com/bJlZg69x5lg"
         },
         {
-          "nom": "Sneakers Hautes Performance",
-          "description": "Atteignez de nouveaux sommets avec nos sneakers hautes performances. Conçues pour offrir un soutien optimal tout en respectant l'environnement."
+          "nom": "Nike Performance",
+          "description": "Atteignez de nouveaux sommets avec nos sneakers hautes performances. Conçues pour offrir un soutien optimal tout en respectant l'environnement.",
+          "image": "https://source.unsplash.com/164_6wVEHfI"
         },
         {
-          "nom": "Sneakers Vintage Éco-sourcées",
-          "description": "Retrouvez le charme du vintage avec nos sneakers éco-sourcées. Des modèles rétro repensés avec des matériaux respectueux de l'environnement."
+          "nom": "Converse Chuck Taylor all star 70",
+          "description": "Retrouvez le charme du vintage avec nos sneakers éco-sourcées. Des modèles rétro repensés avec des matériaux respectueux de l'environnement.",
+          "image": "https://source.unsplash.com/Ueu_6ZrVb80"
         }
       ],
       "services": [
@@ -48,17 +53,20 @@
         {
           "prenom": "Emma",
           "typeExperience": "Sneakers Urbaines",
-          "commentaire": "Les sneakers urbaines de BonPied sont incroyables. Elles sont confortables, stylées et le fait qu'elles soient éco-sourcées me donne encore plus de raisons de les adorer. Merci pour cette superbe collection !"
+          "commentaire": "Les sneakers urbaines de BonPied sont incroyables. Elles sont confortables, stylées et le fait qu'elles soient éco-sourcées me donne encore plus de raisons de les adorer. Merci pour cette superbe collection !",
+          "image": "https://source.unsplash.com/UBJsHb3HLv8"
         },
         {
           "prenom": "Louis",
           "typeExperience": "Personnalisation",
-          "commentaire": "J'ai personnalisé mes propres sneakers chez BonPied, et elles sont tout simplement géniales. Le processus était facile, et le résultat final correspond parfaitement à ce que je voulais. Une expérience exceptionnelle !"
+          "commentaire": "J'ai personnalisé mes propres sneakers chez BonPied, et elles sont tout simplement géniales. Le processus était facile, et le résultat final correspond parfaitement à ce que je voulais. Une expérience exceptionnelle !",
+          "image": "https://source.unsplash.com/Nm70URdtf3c"
         },
         {
           "prenom": "Léa",
           "typeExperience": "Recyclage",
-          "commentaire": "Je suis reconnaissante que BonPied offre un programme de recyclage. C'est agréable de savoir que mes anciennes sneakers sont recyclées de manière responsable. Une initiative géniale !"
+          "commentaire": "Je suis reconnaissante que BonPied offre un programme de recyclage. C'est agréable de savoir que mes anciennes sneakers sont recyclées de manière responsable. Une initiative géniale !",
+          "image": "https://source.unsplash.com/mEZ3PoFGs_k"
         }
       ]
     }

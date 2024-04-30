@@ -1,3 +1,6 @@
+*{
+    font-family: "Anta", sans-serif;
+}
 h1 {
     color: #12de89a2;
 }
@@ -10,6 +13,19 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-header{
+header , main {
     background-color: beige;
 }
+body {
+    width: 99%!important;
+    margin: 0.5%!important;
+    padding: 0.5%!important;
+}
+img{
+    border-radius: 10px;
+
+}
+div{
+    text-align: center;
+}
+#map { height: 180px; }
