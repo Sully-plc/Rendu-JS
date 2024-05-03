@@ -79,6 +79,15 @@ function creationHtml(data) {
         div3.appendChild(liste);
         div3.appendChild(image);
     });
+
+    const buttonlink = document.getElementById('contact-link');
+    buttonlink.addEventListener('click', ClickButton );
+    function ClickButton(event) {
+        event.preventDefault();
+        window.location.hash = '#contact-form';
+    }
+    
+    
     const container = document.createElement('div');
     container.setAttribute('id', 'map')
     footer.appendChild(container)

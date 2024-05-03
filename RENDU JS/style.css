@@ -3,6 +3,7 @@
 }
 h1 {
     color: #12de89a2;
+    text-align: center;
 }
 button {
     background-color: #12de89a2;
@@ -23,9 +24,38 @@ body {
 }
 img{
     border-radius: 10px;
+    width: 20%;
 
 }
 div{
     text-align: center;
 }
 #map { height: 180px; }
+
+form{
+    display: inline-block;
+    width: 100%;
+}
+
+nav, a  {
+    background-color: #333;
+    color:blanchedalmond; 
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+
+nav a:hover {
+    color: #007bff;
+}
