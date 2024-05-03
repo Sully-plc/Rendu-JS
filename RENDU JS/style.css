@@ -13,8 +13,9 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
-header , main {
+header,main {
     background-color: beige;
 }
 body {
@@ -37,7 +38,7 @@ form{
     width: 100%;
 }
 
-nav, a  {
+nav,a  {
     background-color: #333;
     color:blanchedalmond; 
     padding: 10px;
@@ -55,7 +56,10 @@ nav li {
     margin-right: 10px; 
 }
 
-
 nav a:hover {
     color: #007bff;
+}
+
+fieldset{
+    width: 100%;
 }

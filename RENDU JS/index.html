@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <link rel="stylesheet" href="css/pico.min.css" />
 
 </head>
 
 <body>
+    <script src="https://kit.fontawesome.com/4593914886.js" crossorigin="anonymous"></script>
 
     <header>
 
@@ -33,18 +35,32 @@
     <footer>
 
         <div>
-            <form id="contact-form">
-                <label for="nom">Nom:</label>
-                <input type="text" id="nom" name="nom" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Envoyer</button>
-            </form>
+            <form>
+                <fieldset>
+                  <label>
+                    Nom-Prenom
+                    <input
+                      name="first_name"
+                      placeholder="Nom-Prenom"
+                      autocomplete="given-name"
+                    />
+                  </label>
+                  <label>
+                    Message
+                    <input
+                      type="message"
+                      name="message"
+                      placeholder="message"
+                      autocomplete="message"
+                    />
+                  </label>
+                </fieldset>
+              
+                <input
+                  type="submit"
+                  value="Envoyer"
+                />
+              </form>
         </div>
 
 

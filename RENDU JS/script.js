@@ -81,12 +81,18 @@ function creationHtml(data) {
     });
 
     const buttonlink = document.getElementById('contact-link');
-    buttonlink.addEventListener('click', ClickButton );
-    function ClickButton(event) {
+    buttonlink.addEventListener('click', (event)=> {
         event.preventDefault();
-        window.location.hash = '#contact-form';
-    }
+        console.log(buttonlink);
+       /* function ClickButton(event) {
+            ClickButton.preventDefault();
+            alert('Le formulaire a été soumis !');
+            window.location.hash = '#contact-form';
+            footer.appendChild(buttonlink)
     
+        }
+*/
+    });
     
     const container = document.createElement('div');
     container.setAttribute('id', 'map')
