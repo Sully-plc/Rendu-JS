@@ -60,6 +60,12 @@ nav a:hover {
     color: #007bff;
 }
 
-fieldset{
+form, fieldset{
     width: 100%;
+    background-color: beige;
+    border: none;
+}
+input{
+    background-color: #12de89a2;
+    color: #fff;
 }
