@@ -41,6 +41,13 @@ function creationHtml(data) {
     phraseAccroche.textContent = entreprise.phraseAccroche;
     header.appendChild(phraseAccroche);
     const boutonAppelAction = document.createElement('button');
+
+    boutonAppelAction.setAttribute("id", "contact-form"); 
+    boutonAppelAction.addEventListener('click', (event)=> {
+        event.preventDefault();
+        console.log(boutonAppelAction);
+        window.location.href = '#contact-link';
+    })
     boutonAppelAction.textContent = entreprise.texteAppelAction;
     header.appendChild(boutonAppelAction);
     const avantagesClients = document.createElement('ul');
@@ -80,19 +87,6 @@ function creationHtml(data) {
         div3.appendChild(image);
     });
 
-    const buttonlink = document.getElementById('contact-link');
-    buttonlink.addEventListener('click', (event)=> {
-        event.preventDefault();
-        console.log(buttonlink);
-       /* function ClickButton(event) {
-            ClickButton.preventDefault();
-            alert('Le formulaire a été soumis !');
-            window.location.hash = '#contact-form';
-            footer.appendChild(buttonlink)
-    
-        }
-*/
-    });
     
     const container = document.createElement('div');
     container.setAttribute('id', 'map')
